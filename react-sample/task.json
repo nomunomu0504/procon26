@@ -1,0 +1,44 @@
+{
+	"meta": {
+		"code": 200,
+		"msg": "OK."
+	},
+	"data": {
+		"today": [
+			{
+				"created_at": "Thu Feb 18 13:57:31 +0000 2015",
+				"id": 545578606617841664,
+				"author": "福井太郎",
+				"title": "定積分のプリント29",
+				"description": "最後の問題は、難しいので解かなくてもよい。",
+				"deadline": "2015-2-20",
+				"done": true,
+				"verified": true
+			},
+			{
+				"created_at": "Thu Feb 18 13:57:31 +0000 2015",
+				"id": 471578606618841660,
+				"author": "石川健",
+				"title": "国語のワーク P20~23",
+				"description": "",
+				"deadline": "2015-2-20",
+				"done": true,
+				"verified": false
+			}
+		],
+		"tommorow": [
+			{
+				"created_at": "Thu Feb 18 13:57:31 +0000 2015",
+				"id": 399978606617841111,
+				"author": "東京太郎",
+				"title": "熱起電力の実験レポート",
+				"description": "提出は早めに。",
+				"deadline": "2015-2-21",
+				"done": false,
+				"verified": false
+			}
+		],
+		"after_tommorow": [
+		]
+	}
+}

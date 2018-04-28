@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<homeworks>
+  <today/>
+  <tomorrow/>
+  <after_tomorrow/>
+  <another>
+    <id code="8500">
+      <title>積分プリント</title>
+      <author>テスト</author>
+      <deadline>2017-03-01</deadline>
+      <interval>712</interval>
+      <description>丸付けもすること</description>
+    </id>
+    <id code="14412">
+      <title>積分2プリント</title>
+      <author>テスト2</author>
+      <deadline>2019-03-22</deadline>
+      <interval>1463</interval>
+      <description>答え合わせもすること</description>
+    </id>
+    <id code="28971">
+      <title>テステスてす</title>
+      <author>テステス</author>
+      <deadline>2015-07-01</deadline>
+      <interval>103</interval>
+      <description>改行&lt;br /&gt;&#13;
+できてるはず&lt;br /&gt;&#13;
+なんだな&lt;br /&gt;&#13;
+</description>
+    </id>
+  </another>
+  <done>
+    <id code="8630">
+      <title>微分4</title>
+      <author>テスト4</author>
+      <deadline>2015-03-16</deadline>
+      <interval>4</interval>
+      <description>さぁさぁ</description>
+    </id>
+    <id code="16447">
+      <title>tttttt</title>
+      <author>ttttt</author>
+      <deadline>2015-03-18</deadline>
+      <interval>2</interval>
+      <description>tttttttt&lt;br /&gt;&#13;
+</description>
+    </id>
+    <id code="23301">
+      <title>ああああああ</title>
+      <author>ああああああ</author>
+      <deadline>2015-03-15</deadline>
+      <interval>5</interval>
+      <description>(´д｀;)ｱｧ…( ﾟдﾟ )！(*´Д`*) 〜з(*´Д`*) 〜з</description>
+    </id>
+    <id code="25343">
+      <title>積分3</title>
+      <author>テスト3</author>
+      <deadline>2015-01-01</deadline>
+      <interval>78</interval>
+      <description>さぁ</description>
+    </id>
+    <id code="31295">
+      <title>ｓｓｓｓｓ</title>
+      <author>ｓｓｓｓｓｓ</author>
+      <deadline>2015-03-17</deadline>
+      <interval>3</interval>
+      <description>ｓｓｓｓｓｓ</description>
+    </id>
+  </done>
+</homeworks>

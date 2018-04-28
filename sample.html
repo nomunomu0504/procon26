@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<style>
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	margin: 0;
+	
+	background-color: #F0F0F0;
+	
+	font-family: "Lucida Grande", "segoe UI", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Verdana, Arial, sans-serif;
+	font-size: 1.6rem;
+	font-weight: normal;
+	color: #646464;
+}
+
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	
+	width: 100%;
+	height: 50px;
+	
+	z-index: 2;
+	
+	background-color: #FFF;
+	
+	box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+}
+
+
+#navbar a {	
+	color: #FF1133;
+	text-decoration: none;
+	
+   font-size: 16px;
+	font-weight: bold;
+}
+
+#timeline {
+	position: relative;
+	
+	display: table;
+   margin: 0 auto;
+	
+	width: 600px;
+}
+
+.task-group {
+	margin-top: 20px;
+	border-top: 1px solid white;
+	padding: 25px;
+	
+	background-color: #FDFDFD;
+	
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	
+	box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	-webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3);
+}
+
+.task-group h2 {
+	color: #FF1133;
+}
+
+.task-group .task-list {
+	list-style-type: none;
+	
+	margin: 0;
+	padding: 0;
+}
+
+.task-group .task-list .task {
+	border-bottom: 1px solid #EEE;
+}
+
+.task-group .task-list .task .description {
+	background-color: #EEE;
+	padding: 16px;
+}
+
+.task-group .task-list .task .title {
+	font-weight: bold;
+}
+
+	</style>
+	<body>
+		<nav id="navbar">
+			<ul>
+				<li><a href="#">ホーム</a></li>
+				<li><a href="#">なにか</a></li>
+				<li><a href="#">なにか</a></li>
+			</ul>
+		</nav>
+		
+		<div id="timeline">
+			
+			<div class="task-group">
+				<h2>Today</h2>
+				<ul class="task-list">
+					<li class="task">
+						<div class="left">
+							<button>Done</button>
+						</div>
+						<div class="right">
+							<p class="teacher-name">福井 太郎 先生</p>
+							<p class="title">定積分プリント２９</p>
+							<p class="description">
+								問題２は難しいので飛ばしても良い。
+							</p>
+						</div>
+					</li>
+					<li class="task">
+						<div class="left">
+							<button>Done</button>
+						</div>
+						<div class="right">
+							<p class="teacher-name">福井 太郎 先生</p>
+							<p class="title">定積分プリント２９</p>
+							<p class="description">
+								問題２は難しいので飛ばしても良い。
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+			<div class="task-group">
+				<h2>Tomorrow</h2>
+				<ul class="task-list">
+					<li class="task">
+						<div class="left">
+							<button>Done</button>
+						</div>
+						<div class="right">
+							<p class="teacher-name">福井 太郎 先生</p>
+							<p class="title">定積分プリント２９</p>
+							<p class="description">
+								問題２は難しいので飛ばしても良い。
+							</p>
+						</div>
+					</li>
+					<li class="task">
+						<div class="left">
+							<button>Done</button>
+						</div>
+						<div class="right">
+							<p class="teacher-name">福井 太郎 先生</p>
+							<p class="title">定積分プリント２９</p>
+							<p class="description">
+								問題２は難しいので飛ばしても良い。
+							</p>
+						</div>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+	</body>
+</html>
